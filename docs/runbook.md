@@ -1,0 +1,2 @@
+lh_clariv_p10: sx6cc3atk5tu7kli3w2z6cytpm-yeanu6qjnbeu7htneosgevxzce.datawarehouse.fabric.microsoft.com                                   
+wh_clriv_p10: sx6cc3atk5tu7kli3w2z6cytpm-yeanu6qjnbeu7htneosgevxzce.datawarehouse.fabric.microsoft.com
