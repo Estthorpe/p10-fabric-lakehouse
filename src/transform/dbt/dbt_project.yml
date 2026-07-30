@@ -1,0 +1,11 @@
+﻿name: clarivance_p10
+version: "1.0.0"
+profile: clarivance_p10
+model-paths: ["models"]
+test-paths: ["tests"]
+models:
+  clarivance_p10:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

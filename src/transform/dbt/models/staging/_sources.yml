@@ -1,0 +1,12 @@
+﻿version: 2
+
+sources:
+  - name: silver
+    description: Governed silver layer, contract-enforced in Spark.
+    database: lh_clariv_p10
+    schema: dbo
+    tables:
+      - name: silver_orders
+      - name: silver_deliveries
+      - name: silver_products
+      - name: silver_depots
