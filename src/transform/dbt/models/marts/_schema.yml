@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: fact_orders
+    columns:
+      - name: order_line_id
+        tests: [unique, not_null]
+      - name: depot_id
+        tests:
+          - relationships:
+              to: ref('dim_depot')
+              field: depot_id
+      - name: product_id
+        tests:
+          - relationships:
+              to: ref('dim_product')
+              field: product_id
+
+  - name: fact_deliveries
+    columns:
+      - name: delivery_id
+        tests: [unique, not_null]
+      - name: depot_id
+        tests:
+          - relationships:
+              to: ref('dim_depot')
+              field: depot_id
+
+  - name: dim_depot
+    columns:
+      - name: depot_id
+        tests: [unique, not_null]
+
+  - name: dim_product
+    columns:
+      - name: product_id
+        tests: [unique, not_null]

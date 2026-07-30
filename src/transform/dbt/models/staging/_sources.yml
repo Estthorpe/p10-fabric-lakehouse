@@ -1,4 +1,4 @@
-﻿version: 2
+version: 2
 
 sources:
   - name: silver
@@ -10,3 +10,10 @@ sources:
       - name: silver_deliveries
       - name: silver_products
       - name: silver_depots
+
+  - name: bronze
+    description: Raw ingested layer. Faithful copy of source; recovery source for soft-deleted dimension members.
+    database: lh_clariv_p10
+    schema: dbo
+    tables:
+      - name: bronze_products
