@@ -36,3 +36,7 @@ Clarivance Analytics Group · Esther Uzor
 ## Standing habit added to the Master Execution Standard
 
 **H5 — Verify the platform window at kickoff.** Before any phase begins, record the platform's expiry date, quota limits, and eligibility terms in the risk log. Registration is not entitlement; a granted trial is not a fresh trial. Bought by D1.
+
+
+
+Risk log, one line: DC2 executed — model count cut 10 → 6 at the Thursday gate; full star schema still delivered, DoD intact.
