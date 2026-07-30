@@ -14,7 +14,7 @@ renamed as (
         customer_id,
         depot_id,
         product_id,
-        cast(order_datetime as datetime2)        as ordered_at,
+        cast(order_datetime as datetime2(6))     as ordered_at,
         cast(requested_delivery_date as date)    as requested_delivery_date,
         cast(quantity as int)                    as quantity,
         cast(unit_price as decimal(10, 2))       as unit_price,
